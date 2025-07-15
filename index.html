@@ -1,0 +1,130 @@
+ <!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Malla Curricular Derecho</title>
+  <link rel="stylesheet" href="styles.css">
+
+</head>
+<body>
+  <h1>Pensum Bonito de Dani ♡</h1>
+  <div class="container">
+    <div class="semestre">
+      <div class="titulo-semestre">I Semestre</div>
+      <div class="materias">
+        <div class="materia" id="teoria-derecho" onclick="toggleMateria('teoria-derecho')">Teoría del derecho</div>
+        <div class="materia" id="introduccion-derecho" onclick="toggleMateria('introduccion-derecho')">Introducción al derecho</div>
+        <div class="materia" id="sociologia" onclick="toggleMateria('sociologia')">Sociología</div>
+        <div class="materia" id="epistemologia" onclick="toggleMateria('epistemologia')">Epistemología</div>
+        <div class="materia" id="teoria-estado" onclick="toggleMateria('teoria-estado')">Teoría del Estado</div>
+        <div class="materia" id="ideas-politicas" onclick="toggleMateria('ideas-politicas')">Ideas políticas</div>
+        <div class="materia" id="economia-politica" onclick="toggleMateria('economia-politica')">Economía Política</div>
+        <div class="materia" id="historia-derecho" onclick="toggleMateria('historia-derecho')">Historia del Derecho</div>
+      </div>
+    </div>
+
+    <div class="semestre">
+      <div class="titulo-semestre">II Semestre</div>
+      <div class="materias">
+        <div class="materia" id="ddhh" onclick="toggleMateria('ddhh')">Derecho Humanos y Derecho Internacional Humanitario</div>
+        <div class="materia" id="civil-personas" onclick="toggleMateria('civil-personas')">Derecho civil personas</div>
+        <div class="materia" id="constitucional-general" onclick="toggleMateria('constitucional-general')">Teoría constitucional general</div>
+        <div class="materia" id="sociologia-juridica" onclick="toggleMateria('sociologia-juridica')">Sociología jurídica</div>
+        <div class="materia" id="comercial-general" onclick="toggleMateria('comercial-general')">Derecho comercial general</div>
+        <div class="materia" id="economia-colombiana" onclick="toggleMateria('economia-colombiana')">Economía colombiana</div>
+        <div class="materia" id="logica-juridica" onclick="toggleMateria('logica-juridica')">Lógica jurídica</div>
+      </div>
+    </div>
+
+    <div class="semestre">
+      <div class="titulo-semestre">III Semestre</div>
+      <div class="materias">
+        <div class="materia" id="constitucional-colombiano" onclick="toggleMateria('constitucional-colombiano')">Derecho constitucional colombiano</div>
+        <div class="materia" id="bienes" onclick="toggleMateria('bienes')">Bienes</div>
+        <div class="materia" id="investigacion" onclick="toggleMateria('investigacion')">Teoría general de la investigación</div>
+        <div class="materia" id="dip-dipri" onclick="toggleMateria('dip-dipri')">Derecho internacional público y privado</div>
+        <div class="materia" id="filosofia-derecho" onclick="toggleMateria('filosofia-derecho')">Filosofía del derecho</div>
+        <div class="materia" id="negocio-juridico" onclick="toggleMateria('negocio-juridico')">Teoría del negocio jurídico</div>
+      </div>
+    </div>
+
+    <div class="semestre">
+      <div class="titulo-semestre">IV Semestre</div>
+      <div class="materias">
+        <div class="materia" id="obligaciones" onclick="toggleMateria('obligaciones')">Obligaciones</div>
+        <div class="materia" id="argumentacion" onclick="toggleMateria('argumentacion')">Argumentación jurídica</div>
+        <div class="materia" id="seminario-i" onclick="toggleMateria('seminario-i')">Seminario de investigación I</div>
+        <div class="materia" id="penal-general" onclick="toggleMateria('penal-general')">Derecho penal general</div>
+        <div class="materia" id="administrativo-general" onclick="toggleMateria('administrativo-general')">Derecho administrativo general</div>
+        <div class="materia" id="sociedades" onclick="toggleMateria('sociedades')">Sociedades</div>
+        <div class="materia" id="familia" onclick="toggleMateria('familia')">Derecho de Familia</div>
+      </div>
+    </div>
+
+    <div class="semestre">
+      <div class="titulo-semestre">V Semestre</div>
+      <div class="materias">
+        <div class="materia" id="administrativo-colombiano" onclick="toggleMateria('administrativo-colombiano')">Derecho administrativo colombiano</div>
+        <div class="materia" id="teoria-proceso" onclick="toggleMateria('teoria-proceso')">Teoría general del proceso</div>
+        <div class="materia" id="penal-especial-i" onclick="toggleMateria('penal-especial-i')">Derecho penal especial I</div>
+        <div class="materia" id="laboral-individual" onclick="toggleMateria('laboral-individual')">Derecho laboral individual</div>
+        <div class="materia" id="contratos" onclick="toggleMateria('contratos')">Contratos</div>
+        <div class="materia" id="seminario-ii" onclick="toggleMateria('seminario-ii')">Seminario de investigación II</div>
+      </div>
+    </div>
+
+    <div class="semestre">
+      <div class="titulo-semestre">VI Semestre</div>
+      <div class="materias">
+        <div class="materia" id="procesal-civil" onclick="toggleMateria('procesal-civil')">Derecho procesal civil</div>
+        <div class="materia" id="penal-especial-ii" onclick="toggleMateria('penal-especial-ii')">Derecho penal especial II</div>
+        <div class="materia" id="titulos-valores" onclick="toggleMateria('titulos-valores')">Títulos valores</div>
+        <div class="materia" id="laboral-colectivo" onclick="toggleMateria('laboral-colectivo')">Derecho laboral colectivo</div>
+        <div class="materia" id="procesal-constitucional" onclick="toggleMateria('procesal-constitucional')">Derecho procesal constitucional</div>
+      </div>
+    </div>
+
+    <div class="semestre">
+      <div class="titulo-semestre">VII Semestre</div>
+      <div class="materias">
+        <div class="materia" id="procesal-administrativo" onclick="toggleMateria('procesal-administrativo')">Derecho procesal administrativo</div>
+        <div class="materia" id="responsabilidad" onclick="toggleMateria('responsabilidad')">Responsabilidad</div>
+        <div class="materia" id="procesal-laboral" onclick="toggleMateria('procesal-laboral')">Derecho procesal laboral</div>
+        <div class="materia" id="procesal-penal" onclick="toggleMateria('procesal-penal')">Derecho procesal penal</div>
+        <div class="materia" id="consultorio-i" onclick="toggleMateria('consultorio-i')">Consultorio jurídico I</div>
+      </div>
+    </div>
+
+    <div class="semestre">
+      <div class="titulo-semestre">VIII Semestre</div>
+      <div class="materias">
+        <div class="materia" id="responsabilidad-profesional" onclick="toggleMateria('responsabilidad-profesional')">Responsabilidad Profesional</div>
+        <div class="materia" id="mecanismos-conflictos" onclick="toggleMateria('mecanismos-conflictos')">Mecanismos de solución de conflictos</div>
+        <div class="materia" id="derecho-probatorio" onclick="toggleMateria('derecho-probatorio')">Derecho Probatorio</div>
+        <div class="materia" id="sucesiones" onclick="toggleMateria('sucesiones')">Sucesiones</div>
+        <div class="materia" id="consultorio-ii" onclick="toggleMateria('consultorio-ii')">Consultorio jurídico II</div>
+      </div>
+    </div>
+
+    <div class="semestre">
+      <div class="titulo-semestre">IX Semestre</div>
+      <div class="materias">
+        <div class="materia" id="seguridad-social" onclick="toggleMateria('seguridad-social')">Seguridad social</div>
+        <div class="materia" id="consultorio-iii" onclick="toggleMateria('consultorio-iii')">Consultorio jurídico III</div>
+        <div class="materia" id="conciliacion-i" onclick="toggleMateria('conciliacion-i')">Centro de conciliación I</div>
+      </div>
+    </div>
+
+    <div class="semestre">
+      <div class="titulo-semestre">X Semestre</div>
+      <div class="materias">
+        <div class="materia" id="consultorio-iv" onclick="toggleMateria('consultorio-iv')">Consultorio jurídico IV</div>
+        <div class="materia" id="conciliacion-ii" onclick="toggleMateria('conciliacion-ii')">Centro de conciliación II</div>
+      </div>
+    </div>
+  </div>
+
+  <script src="script.js" defer></script>
+</body>
+</html>
